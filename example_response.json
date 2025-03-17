@@ -1,0 +1,285 @@
+{
+  "meta": {
+    "page": {
+      "current-page": 1,
+      "per-page": 100,
+      "from": 1,
+      "to": 3,
+      "total": 3,
+      "last-page": 1
+    }
+  },
+  "links": {
+    "first": "https://fancentro.com/admin/lapi/vaultItems?filter%5BmediaType%5D%5B0%5D=image&filter%5BmediaType%5D%5B1%5D=video&filter%5BmediaType%5D%5B2%5D=audio&sort=-createdAt&page%5Bnumber%5D=1&page%5Bsize%5D=100",
+    "last": "https://fancentro.com/admin/lapi/vaultItems?filter%5BmediaType%5D%5B0%5D=image&filter%5BmediaType%5D%5B1%5D=video&filter%5BmediaType%5D%5B2%5D=audio&sort=-createdAt&page%5Bnumber%5D=1&page%5Bsize%5D=100"
+  },
+  "data": [
+    {
+      "type": "vaultItems",
+      "id": "36407744",
+      "attributes": {
+        "duration": 39,
+        "mediaType": "video",
+        "createdAt": "2025-03-15T09:33:59Z",
+        "state": 1,
+        "thumbs": {
+          "w450_h600l": "https://ht-small.centrofiles.com/h3/65lf3sfKWgUrlUIHEpI0nV9aW1E.sbVKK323uSGj2H78J70BzMYpucRE6X2.YqAXN2uH-eV0t3RHGR7H7mDgxH9NFyZTUW20s3e2Z7Hr0EGYAk-sQlcB9xRTU.z59P-nwbK49XJkYi3d-ObAQNwq5JZAy-RuQ1472l0oI4bTYjjRyBARysBYBa-kASVDSaMjCUSjwJh4IQr5m7mMvQJWnL-3Ng1timo9DDem8FaYLdtTWqrAfUWzn8IOfUAgB7GU/w450_h600l.jpg"
+        }
+      },
+      "relationships": {
+        "storageResource": {
+          "data": {
+            "type": "storageResources",
+            "id": "420686244"
+          }
+        },
+        "meta": {
+          "data": null
+        },
+        "vaultResourceTag": {
+          "data": [
+            {
+              "type": "vaultResourceTags",
+              "id": "49402496"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "vaultItems",
+      "id": "36407432",
+      "attributes": {
+        "duration": 0,
+        "mediaType": "image",
+        "createdAt": "2025-03-15T09:19:34Z",
+        "state": 1,
+        "thumbs": {
+          "w450_h600l": "https://ht-small.centrofiles.com/h3/65lf3sfKWgUrlUIHEpI0nV9aW1E.sbVKK323uSGj2H78J70BzMYpucRE6X2.YqAXgGFVopMLPfDfWugkIFAN1.NW6H1F6MnBP8Al5k70t8cPu4iIlqObSEpu.3k2OhTaFLeMRD5VtZfe.DREXP3YipZAy-RuQ1472l0oI4bTYjjRyBARysBYBa-kASVDSaMjCUSjwJh4IQr5m7mMvQJWnNZ00ZPHgA7V9PsRXNoFblj4Cyr0iU9QfmTE75tzSQSC/w450_h600l.jpg"
+        }
+      },
+      "relationships": {
+        "storageResource": {
+          "data": {
+            "type": "storageResources",
+            "id": "420685796"
+          }
+        },
+        "meta": {
+          "data": {
+            "type": "vaultMeta",
+            "id": "22451864"
+          }
+        },
+        "vaultResourceTag": {
+          "data": [
+            {
+              "type": "vaultResourceTags",
+              "id": "49402176"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "vaultItems",
+      "id": "36407340",
+      "attributes": {
+        "duration": 0,
+        "mediaType": "image",
+        "createdAt": "2025-03-15T09:15:20Z",
+        "state": 1,
+        "thumbs": {
+          "w450_h600l": "https://ht-small.centrofiles.com/h3/65lf3sfKWgUrlUIHEpI0nV9aW1E.sbVKK323uSGj2H78J70BzMYpucRE6X2.YqAXgC7vCbo-vqGA4Jz5THZ9BXZTClSemhW1PQRBvFhktRBucy3veCuOKocynzBJqLOiod7CCi.Xol4c6CnO2QaM-pZAy-RuQ1472l0oI4bTYjjRyBARysBYBa-kASVDSaMjCUSjwJh4IQr5m7mMvQJWnKZCogkVWaYbNH.kn.QCfCkZDrmvI417jM-Xy2lMRLWf/w450_h600l.jpg"
+        }
+      },
+      "relationships": {
+        "storageResource": {
+          "data": {
+            "type": "storageResources",
+            "id": "420685320"
+          }
+        },
+        "meta": {
+          "data": {
+            "type": "vaultMeta",
+            "id": "22451800"
+          }
+        },
+        "vaultResourceTag": {
+          "data": [
+            {
+              "type": "vaultResourceTags",
+              "id": "49402088"
+            },
+            {
+              "type": "vaultResourceTags",
+              "id": "49409660"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "included": [
+    {
+      "type": "storageResources",
+      "id": "420686244",
+      "attributes": {
+        "secureInfo": {
+          "duration": 39,
+          "height": "1080",
+          "width": "2048",
+          "fileName": "1080p.mp4"
+        },
+        "resourcePath": "https://fc-ht-large.centrofiles.com/h3/65lf3sfKWgUrlUIHEpI0nV9aW1E.sbVKK323uSGj2H5io-IMYHR-Wr5WUiGNHIG3LQzTCwC4-6C-TzpK3rp.DQ==/1080p.mp4?project=fc&validfrom=1742033563&validto=1742047963&hash=X1R6MydU6lTQ369dcSxj%2FrBXYn4%3D&expireTimestamp=1742044363",
+        "mediaType": "video"
+      }
+    },
+    {
+      "type": "resourceTags",
+      "id": "6",
+      "attributes": {
+        "name": "Uploads",
+        "role": "upload",
+        "isCommon": 1,
+        "createdAt": "1970-01-01T00:00:01Z",
+        "isPinned": 0
+      }
+    },
+    {
+      "type": "vaultResourceTags",
+      "id": "49402496",
+      "attributes": {
+        "resourceTagId": 6,
+        "vaultId": 36407744
+      },
+      "relationships": {
+        "resourceTag": {
+          "data": {
+            "type": "resourceTags",
+            "id": "6"
+          }
+        }
+      }
+    },
+    {
+      "type": "storageResources",
+      "id": "420685796",
+      "attributes": {
+        "secureInfo": {
+          "width": 4642,
+          "height": 6963,
+          "fileName": "pexelscottonbro9463354.jpg"
+        },
+        "resourcePath": {
+          "w450_h600l": "https://ht-small.centrofiles.com/h3/65lf3sfKWgUrlUIHEpI0nV9aW1E.sbVKK323uSGj2H78J70BzMYpucRE6X2.YqAXgGFVopMLPfDfWugkIFAN1.NW6H1F6MnBP8Al5k70t8cPu4iIlqObSEpu.3k2OhTaFLeMRD5VtZfe.DREXP3YipZAy-RuQ1472l0oI4bTYjjRyBARysBYBa-kASVDSaMjCUSjwJh4IQr5m7mMvQJWnNZ00ZPHgA7V9PsRXNoFblj4Cyr0iU9QfmTE75tzSQSC/w450_h600l.jpg"
+        },
+        "mediaType": "image"
+      }
+    },
+    {
+      "type": "vaultMeta",
+      "id": "22451864",
+      "attributes": {
+        "description": "",
+        "description_ai": "a woman with long hair and blue jacket is looking at her phone in the light of the sun, while wearing earrings",
+        "vaultId": 36407432
+      }
+    },
+    {
+      "type": "vaultResourceTags",
+      "id": "49402176",
+      "attributes": {
+        "resourceTagId": 6,
+        "vaultId": 36407432
+      },
+      "relationships": {
+        "resourceTag": {
+          "data": {
+            "type": "resourceTags",
+            "id": "6"
+          }
+        }
+      }
+    },
+    {
+      "type": "storageResources",
+      "id": "420685320",
+      "attributes": {
+        "secureInfo": {
+          "width": 5461,
+          "height": 8192,
+          "fileName": "pexelscottonbro9463353.jpg"
+        },
+        "resourcePath": {
+          "w450_h600l": "https://ht-small.centrofiles.com/h3/65lf3sfKWgUrlUIHEpI0nV9aW1E.sbVKK323uSGj2H78J70BzMYpucRE6X2.YqAXgC7vCbo-vqGA4Jz5THZ9BXZTClSemhW1PQRBvFhktRBucy3veCuOKocynzBJqLOiod7CCi.Xol4c6CnO2QaM-pZAy-RuQ1472l0oI4bTYjjRyBARysBYBa-kASVDSaMjCUSjwJh4IQr5m7mMvQJWnKZCogkVWaYbNH.kn.QCfCkZDrmvI417jM-Xy2lMRLWf/w450_h600l.jpg"
+        },
+        "mediaType": "image"
+      }
+    },
+    {
+      "type": "vaultMeta",
+      "id": "22451800",
+      "attributes": {
+        "description": "",
+        "description_ai": "a black woman in blue posing with her hands on her ears and rings on her fingers, with a light behind her",
+        "vaultId": 36407340
+      }
+    },
+    {
+      "type": "resourceTags",
+      "id": "2",
+      "attributes": {
+        "name": "Posts",
+        "role": "post",
+        "isCommon": 1,
+        "createdAt": "1970-01-01T00:00:01Z",
+        "isPinned": 0
+      }
+    },
+    {
+      "type": "vaultResourceTags",
+      "id": "49402088",
+      "attributes": {
+        "resourceTagId": 2,
+        "vaultId": 36407340
+      },
+      "relationships": {
+        "resourceTag": {
+          "data": {
+            "type": "resourceTags",
+            "id": "2"
+          }
+        }
+      }
+    },
+    {
+      "type": "resourceTags",
+      "id": "155824",
+      "attributes": {
+        "name": "#abc",
+        "role": null,
+        "isCommon": 0,
+        "createdAt": "2025-03-15T12:06:41Z",
+        "isPinned": 0
+      }
+    },
+    {
+      "type": "vaultResourceTags",
+      "id": "49409660",
+      "attributes": {
+        "resourceTagId": 155824,
+        "vaultId": 36407340
+      },
+      "relationships": {
+        "resourceTag": {
+          "data": {
+            "type": "resourceTags",
+            "id": "155824"
+          }
+        }
+      }
+    }
+  ]
+}

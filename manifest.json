@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Media Downloader",
+  "version": "1.0",
+  "permissions": ["cookies", "downloads", "storage", "activeTab"],
+  "host_permissions": ["https://fancentro.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "index.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://fancentro.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
